@@ -2,9 +2,10 @@ package introspect
 
 import (
 	"encoding/xml"
-	"github.com/godbus/dbus"
 	"reflect"
 	"strings"
+
+	"github.com/gmmeyer/dbus"
 )
 
 // Introspectable implements org.freedesktop.Introspectable.

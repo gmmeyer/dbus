@@ -3,9 +3,10 @@
 package prop
 
 import (
-	"github.com/godbus/dbus"
-	"github.com/godbus/dbus/introspect"
 	"sync"
+
+	"github.com/gmmeyer/dbus"
+	"github.com/gmmeyer/dbus/introspect"
 )
 
 // EmitType controls how org.freedesktop.DBus.Properties.PropertiesChanged is
